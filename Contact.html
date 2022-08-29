@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title> Contact - BMR</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="encabezado-conocenos">
+            <h1><img id="pnj-encabezado" src="imagenes/BMR LOGO WHITEpeque.png" alt="Page headler"></h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Band.html">Band</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" class="input-datos" required>
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="Email" class="input-datos" required placeholder="example@example.com">
+
+            <label for="phonenumber">Phone-Number</label>
+            <input type="tel" id="phonenumber" class="input-datos" placeholder="(XX)XXX-XX-XX">
+
+
+            <label for="mensaje">Text</label>
+            <textarea name="campodetexto" id="mensaje" cols="70" rows="10" class="input-datos" required></textarea>
+
+            <fieldset class="desplegable">
+
+                <legend>You want be contacted?</legend>
+
+                <select required>
+                    <option>Yes</option>
+                    <option>Not</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>How you want be contact?</legend>
+
+                <label for="radio-email"> <input type="radio" name="contact" id="radio-email"
+                        value="E-Mail">E-Mail</label>
+
+                <label for="radio-WhatsApp"><input type="radio" name="contact" id="radio-WhatsApp" value="WhatsApp"
+                        checked>WhatsApp</label>
+
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>You want know all our news?</label>
+
+            <input class="send" type="submit" value="Send">
+
+        </form>
+        <table>
+
+            <legend id="ndates">Next Dates</legend>
+
+            <thead>
+
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>20-11-2022</td>
+                    <td>Bogotá</td>
+                </tr>
+                <tr>
+                    <td>08-12-2022</td>
+                    <td>Medellín</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+    </main>
+
+    <footer>
+        <img class="imgfooter" src="imagenes/con drop (1).png" alt="Page footer">
+        <p class="correo">bloodmayriseband@gmail.com<br><br>&copy Copyright Blood May Rise - 2022</p>
+
+    </footer>
+</body>
+
+</html>

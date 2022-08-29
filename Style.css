@@ -1,0 +1,329 @@
+body {
+
+    background: url(imagenes/alex-perez-ioJBsYQ-pPM-unsplash.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+
+    width: 100%;
+
+    padding-top: 50px;
+}
+
+main {
+
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pnj-encabezado {
+    text-align: center;
+    width: 65%;
+    margin-bottom: 40px;
+}
+
+
+.encabezado-conocenos {
+    width: 940px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: initial;
+    color: rgb(214, 214, 214);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    color: rgb(197, 66, 66);
+}
+
+/*media---------------------------*/
+
+.redesSociales h2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.redesSociales {
+
+    width: 940px;
+    text-align: center;
+    position: relative;
+
+}
+
+.redesSociales li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 15px;
+    box-sizing: border-box;
+    border-color: rgb(214, 214, 214);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+
+
+.redesSociales a {
+
+    color: rgb(214, 214, 214);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+
+.logo {
+    width: 80%;
+    margin-bottom: 30px;
+
+
+}
+
+
+.redesSociales li:hover {
+    border-color: rgb(197, 66, 66);
+
+}
+
+.redesSociales li:hover h2 {
+
+    font-size: 35px;
+}
+
+.redesSociales li:active {
+    border-color: rgba(17, 82, 15, 0.74);
+
+}
+
+footer {
+    width: 940px ;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+}
+
+.imgfooter{
+    text-align: center;
+}
+
+.correo {
+
+    color: rgb(214, 214, 214);
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+
+/*formulario-------------------------*/
+form {
+    color: rgb(214, 214, 214);
+    margin: 30px;
+    text-align: left;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input-datos {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 50%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgba(65, 62, 62, 0.877);
+}
+
+.input-datos:hover {
+    border-color: rgb(197, 66, 66);
+}
+
+.checkbox {
+
+    margin-top: 30px;
+}
+
+.desplegable {
+
+    margin: 20px 0;
+}
+
+
+.send {
+
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 50%;
+    color: aliceblue;
+    padding: 15px 0;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(197, 66, 66);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: rgb(141, 26, 26);
+    transform: scale(1.1);
+}
+
+table {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#ndates {
+    color: rgb(214, 214, 214);
+    text-align: left;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 15px;
+
+}
+
+thead {
+
+    background-color: rgb(197, 66, 66);
+}
+
+tbody {
+
+    background-color: rgb(0, 0, 0);
+}
+
+th,
+td {
+
+    border: 2px solid rgb(214, 214, 214);
+    padding: 5px;
+
+}
+
+/*css home---------------------------*/
+
+
+.principal {
+
+    width: 940px;
+}
+
+.video {
+
+    margin: 0 auto;
+    opacity: 92%;
+    box-shadow: 10px, 10px, 30px, 15px rgb(0, 0, 0);
+}
+
+/*Band-----------------------------------*/
+
+.titlegallery {
+    color: rgb(214, 214, 214);
+    font-size: 40px;
+    margin: 80px 0 40px 0px;
+    font-weight: bold;
+}
+
+.presskit {
+
+    width: 99.5%;
+
+
+}
+
+.presskit:hover {
+
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px 15px rgba(214, 214, 214, 0.1);
+
+
+}
+
+/*Gallery----------------------------------*/
+
+.titleband {
+    color: rgb(214, 214, 214);
+    font-size: 40px;
+    margin: 80px 0 40px 0px;
+    font-weight: bold;
+}
+
+
+.gallery {
+
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+
+
+}
+
+.gallery:hover {
+
+    width: 30.05%;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px 30px rgba(255, 0, 0, 0.10);
+
+}
+/*responsive desing-------------------------*/
+@media screen and (max-width:480px){
+
+    /*home RD-------------*/
+
+    body{
+
+        text-align: center;
+    }
+    .video {
+
+        margin-left: 30px;
+        
+    }
+
+    
+}
